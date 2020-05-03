@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+.contain-top{
+  background-color: #0C2E45;
+  padding: 2%;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: #313C40;
+}
+
+.contain{
+  background-color: #0C2E45;
+  padding: 2%;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  color: #313C40;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +53,4 @@
     transform: rotate(360deg);
   }
 }
+
