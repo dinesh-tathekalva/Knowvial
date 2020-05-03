@@ -16,3 +16,7 @@ code {
     monospace; */
     font-family: 'Quicksand', sans-serif;
 }
+
+a:hover {
+  color: #FFFFFF;
+  }
