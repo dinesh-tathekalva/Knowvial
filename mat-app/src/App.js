@@ -30,7 +30,7 @@ function App() {
           </Row>
         </Container>
 
-        <Container className="contain">
+        {/* <Container className="contain">
           <Row>
             <Col xs={6}>
               <Card />
@@ -50,7 +50,7 @@ function App() {
               <Card />
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </div>
     </body>
   );
