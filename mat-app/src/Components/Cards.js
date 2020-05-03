@@ -2,11 +2,11 @@ import { Button, Card } from 'react-bootstrap';
 import React, { Component } from 'react';
 
 export default function Cards(props) {
-  const { } = props;
+  const {title} = props;
 
   return (
     <Card>
-      <Card.Header as="h5">Featured</Card.Header>
+      <Card.Header as="h5">{title}</Card.Header>
       <Card.Body>
         <Card.Title>Special title treatment</Card.Title>
         <Card.Text>
