@@ -7,11 +7,7 @@ export default function Cards(props) {
   const {title,link} = props;
   
   const mystyle = {
-    textDecoration: "none",
-    
-    // a:hover :{
-    //   color: "#FFFFFF"
-    //   }
+    textDecoration: "none"
   };
 
   return (
