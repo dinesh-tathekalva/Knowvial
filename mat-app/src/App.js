@@ -9,35 +9,28 @@ function App() {
   return (
     <body>
       <div className="App">
-
-      <Container style={{display: 'flex', marginTop: '4%'}}>
+        <Container style={{display: 'flex', marginTop: '4%'}}>
           <Row>
             <Col xs={12}>
               <h1>KNOWVIAL</h1>
             </Col>
           </Row>
         </Container>
+
         <h2>Topics</h2>
+
         <Container className="contain-top">
           <Row>
             <Col xs={6}>
-              <Card />
+              <Card title='Docker Containers'/>
+              <Button variant="outline-primary">Zoom Video</Button>
             </Col>
             <Col xs={6}>
-              <Card />
+              <Card title='Introduction to Kafka'/>
             </Col>
           </Row>
         </Container>
-        <Container className="contain">
-          <Row>
-            <Col xs={6}>
-              <Card />
-            </Col>
-            <Col xs={6}>
-              <Card />
-            </Col>
-          </Row>
-        </Container>
+
         <Container className="contain">
           <Row>
             <Col xs={6}>
@@ -49,6 +42,16 @@ function App() {
           </Row>
         </Container>
 
+        <Container className="contain">
+          <Row>
+            <Col xs={6}>
+              <Card />
+            </Col>
+            <Col xs={6}>
+              <Card />
+            </Col>
+          </Row>
+        </Container>
       </div>
     </body>
   );
