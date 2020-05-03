@@ -22,7 +22,7 @@ function App() {
         <Container className="contain-top">
           <Row>
             <Col xs={6}>
-              <Card title='Docker Containers'/>
+              <Card title='Docker Containers' link='https://drive.google.com/open?id=1EfvEWbJoLUTf02ri7JIXkfvEzKzEr3M8'/>
             </Col>
             <Col xs={6}>
               <Card title='Introduction to Kafka'/>
@@ -30,7 +30,7 @@ function App() {
           </Row>
         </Container>
 
-        <Container className="contain">
+        {/* <Container className="contain">
           <Row>
             <Col xs={6}>
               <Card />
@@ -50,7 +50,7 @@ function App() {
               <Card />
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </div>
     </body>
   );

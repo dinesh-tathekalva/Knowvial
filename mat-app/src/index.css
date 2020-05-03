@@ -5,8 +5,8 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #081B2E;
-  color: #FFFFFF;
+  background: #010101;
+  color: #497354;
   font-family: 'Quicksand', sans-serif;
 
 }
@@ -16,3 +16,7 @@ code {
     monospace; */
     font-family: 'Quicksand', sans-serif;
 }
+
+a:hover {
+  color: #FFFFFF;
+  }
