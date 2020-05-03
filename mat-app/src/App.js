@@ -23,7 +23,6 @@ function App() {
           <Row>
             <Col xs={6}>
               <Card title='Docker Containers'/>
-              <Button variant="outline-primary">Zoom Video</Button>
             </Col>
             <Col xs={6}>
               <Card title='Introduction to Kafka'/>
